@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oswald&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: blue;
+}
+
+/* heading and background pic */
+
+
+#scary {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/scary-man.jpg') no-repeat center center;
 }
