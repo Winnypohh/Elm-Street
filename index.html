@@ -14,6 +14,7 @@
     <header>
         <a href="index.html">
         <h1 id="logo">Elm street horror storys!</h1>
+         
         </a>
       <nav>
          <ul id="menu">
@@ -35,7 +36,19 @@
 
         </div>
     </section>
-    <section id="song">
+    <section >
+        
+         <h1 id="sound" onmouseover="PlaySound( 'mySound')" >Call me Out!!! </h1>
+         <audio id='mySound' src="./assets/audio/123.mp3"></audio>
+
+         <script type="text/javascript ">
+             function PlaySound(soundobj) {
+                 var thissound = document.getElementById(soundobj);
+                 thissound.play();
+             }
+
+             
+         </script>
     </section>
     <footer>links to media</footer>
 </body>

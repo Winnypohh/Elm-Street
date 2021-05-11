@@ -106,3 +106,9 @@ animation-fill-mode: forwards;
     }
 }
 
+#sound {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px red;
+}
+
