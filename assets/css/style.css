@@ -10,11 +10,68 @@ body {
     color: blue;
 }
 
+/*headings and logo */
+
+h1,
+h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: orangered;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    
+    background-image: url('../images/fire-23.gif');
+    border: none;
+    color: whitesmoke;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+}
+
+.activ {
+    background: url('../images/fire-23.gif');
+    color: whitesmoke;
+    
+}
+
+
 /* heading and background pic */
 
-
 #scary {
-    height: 600px;
+    height: 1000px;
     width: 100%;
     overflow: hidden;
 
@@ -22,9 +79,25 @@ body {
 }
 
 
-
-#hero-image {
-    height: 600px;
+#scary-man {
+    height: 1000px;
     width: 100%;
     background: url('../images/scary-man.jpg') no-repeat center center;
+ 
+
+/* animates zoom effect on lodaing page */
+animation-name: hero-zoom;
+animation-duration: 8s;
+animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
