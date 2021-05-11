@@ -7,7 +7,11 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: blue;
+    color: wheat;
+}
+#red-fire {
+    background: url('../images/red-fire.jpg') no-repeat center fixed;
+    background-size: cover;
 }
 
 /*headings and logo */
@@ -17,7 +21,7 @@ h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: orangered;
+    color: whitesmoke;
 }
 
 #logo {
@@ -71,7 +75,7 @@ h2 {
 /* heading and background pic */
 
 #scary {
-    height: 1000px;
+    height: 900px;
     width: 100%;
     overflow: hidden;
 
@@ -80,7 +84,7 @@ h2 {
 
 
 #scary-man {
-    height: 1000px;
+    height: 900px;
     width: 100%;
     background: url('../images/scary-man.jpg') no-repeat center center;
  
@@ -101,3 +105,4 @@ animation-fill-mode: forwards;
         transform: scale(1.1);
     }
 }
+
