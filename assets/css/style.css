@@ -26,7 +26,7 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 290%;
     margin-left: 30px;
 }
 
@@ -39,7 +39,7 @@ h2 {
 
 #menu,
 #logo {
-    line-height: 75px;
+    line-height: 90px;
 }
 
 #menu li {
@@ -84,7 +84,7 @@ h2 {
 
 
 #scary-man {
-    height: 900px;
+    height: 850px;
     width: 100%;
     background: url('../images/scary-man.jpg') no-repeat center center;
  
@@ -112,9 +112,9 @@ animation-fill-mode: forwards;
     letter-spacing: 4px;
 
     width: 300px;
-    height: 400px;
+    height: 500px;
 
-    padding-top: 90px;
+    padding-top: 70px;
     padding-left: 10px;
 
     background-color: rgba(99, 64, 64, 0.7);
@@ -134,7 +134,7 @@ animation-fill-mode: forwards;
 /* footer */
 
 footer {
-    height: 150px;
+    height: 200px;
 }
 
 .media-networks {
@@ -150,4 +150,29 @@ footer {
     margin: 1%;
     padding: 5%;
     color: white;
+    
+    bottom: 0;
+}
+
+/* 1984-1989 */
+
+#movie-names {
+    height: auto;
+}
+
+.about-movie {
+    height: 60px;
+    width: 50%;
+    float: right;
+    background-color: rgb(238, 113, 113);
+    color: rgb(37, 14, 14);
+    border: 2px solid black;
+    margin: 20px;
+    padding: 30px;
+    
+}
+
+#video {
+    width: 100%;
+    height: auto;
 }
