@@ -137,15 +137,15 @@ footer {
     height: 150px;
 }
 
-.social-networks {
+.media-networks {
     text-align: center;
 }
 
-.social-networks>li {
+.media-networks>li {
     display: inline;
 }
 
-.social-networks i {
+.media-networks i {
     font-size: 300%;
     margin: 1%;
     padding: 5%;
