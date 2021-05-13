@@ -155,23 +155,7 @@ footer {
 
 /* 1984-1989 */
 
-#movie-names {
-    height: auto;
-}
-
-.about-movie {
-    height: 60px;
-    width: 50%;
-    float: right;
-    background-color: rgb(238, 113, 113);
-    color: rgb(37, 14, 14);
-    border: 2px solid black;
+input {
     margin: 20px;
-    padding: 30px;
-    
-}
-
-#video {
-    width: 100%;
-    height: auto;
+    padding: 60px;
 }
