@@ -13,8 +13,15 @@
 <body id="red-fire">
     <header>
         <a href="index.html">
-        <h1 id="logo">Elm street horror storys!</h1>
-         
+        <h1 id="logo" id="sound" onmouseover="PlaySound( 'mySound')">Elm street horror storys!</h1>
+         <audio id='mySound' src="./assets/audio/123.mp3"></audio>
+
+         <script type="text/javascript ">
+             function PlaySound(soundobj) {
+                 var thissound = document.getElementById(soundobj);
+                 thissound.play();
+             }
+         </script>
         </a>
       <nav>
          <ul id="menu">
@@ -48,17 +55,26 @@
             
         </div>
     </section>
-    <section >
-        
-         <h1 id="sound" onmouseover="PlaySound( 'mySound')" >Call me Out!!!</h1>
-         <audio id='mySound' src="./assets/audio/123.mp3"></audio>
-
-         <script type="text/javascript ">
-             function PlaySound(soundobj) {
-                 var thissound = document.getElementById(soundobj);
-                 thissound.play();
-             }   
-         </script>
+    <section id="posters">
+        <img src="../assets/images/220px-A_Nightmare_on_Elm_Street_(1984)_theatrical_poster.jpg"
+            alt="Gril in bed">
+            <img src="../assets/images/220px-A_Nightmare_on_Elm_Street_2_-_Freddy's_Revenge_(1985)_theatrical_poster.jpg"
+                alt="Boy and a girl hugging">
+                <img src="../assets/images/220px-A_Nightmare_on_Elm_Street_3_Dream_Warriors.jpg"
+                    alt="Freddy is looking and people walking">
+                    <img src="../assets/images/220px-A_Nightmare_on_Elm_Street_4_-_The_Dream_Master_(1988)_theatrical_poster.jpg"
+                        alt="Man in sky looking and someone eyes looking">
+                        <img src="../assets/images/220px-A_Nightmare_on_Elm_Street_5_-_The_Dream_Child_-US_poster.jpg"
+                            alt="Freddy holding buggy what is surrounded with bubble">
+                            <img src="../assets/images/220px-Freddy's_Dead-The_Final_Nightmare_-US_poster.jpg"
+                                alt="Freddy is stretching his arm out">
+                                <img src="../assets/images/220px-Wes_Craven's_New_Nightmare_US_poster.jpg"
+                                    alt="Freddy holds hand over two people">
+                                    <img src="../assets/images/220px-Freddy_vs._Jason_movie.jpg"
+                                        alt="Freddy and  Jason looking each other">
+                                        <img src="../assets/images/220px-A_Nightmare_on_Elm_Street_2010_poster.jpg"
+                                            alt="Freddy holds his hand crossed">
+         
     </section>
     <footer>
         <ul class="media-networks">
