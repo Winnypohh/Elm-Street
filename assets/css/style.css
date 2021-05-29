@@ -68,7 +68,6 @@ h2 {
     
 }
 
-
 /* heading and background pic */
 
 #scary {
@@ -150,7 +149,7 @@ footer {
     text-align: center;
 }
 
-.media-networks>li {
+.media-networks >li {
     display: inline;
 }
 
@@ -174,23 +173,34 @@ footer {
     margin: 20px;
     padding: 20px;
     height: 330px;
-    width: 1492px;
-    
+    width: 1000px;
 }
-     
-/* register */
 
+     
+/* register to tell a story */
+
+
+.regform {
+    display: inline-block;
+    box-sizing: border-box;
+    
+    
+
+}
+
+.reg {
+    color: black;
+}
  
 
- /* Add padding to containers */
  .container {
-     
-     padding: 16px;
-     background-color: wheat;
     
+    padding: 100px;
+    background-color: antiquewhite; 
+    color: black;
+       
  }
 
- /* Full-width input fields */
  input[type=text],
  input[type=password] {
      width: 100%;
@@ -207,13 +217,13 @@ footer {
      outline: none;
  }
 
- /* Overwrite default styles of hr */
+ 
  hr {
      border: 1px solid #f1f1f1;
-     margin-bottom: 25px;
+     margin-bottom: 10px;
  }
 
- /* Set a style for the submit button */
+ 
  .registerbtn {
      background-color: #04AA6D;
      color: white;
@@ -229,14 +239,13 @@ footer {
      opacity: 1;
  }
 
- /* Add a blue text color to links */
+ 
  a {
      color: dodgerblue;
  }
 
- /* Set a grey background color and center the text of the "sign in" section */
+ 
  .signin {
      background-color: #f1f1f1;
      text-align: center;
  }
-
