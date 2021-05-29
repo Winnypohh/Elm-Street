@@ -13,23 +13,15 @@
 <body id="red-fire">
     <header>
         <a href="index.html">
-        <h1 id="logo" id="sound" onmouseover="PlaySound( 'mySound')">Elm street horror storys!</h1>
-         <audio id='mySound' src="./assets/audio/123.mp3"></audio>
-
-         <script type="text/javascript ">
-             function PlaySound(soundobj) {
-                 var thissound = document.getElementById(soundobj);
-                 thissound.play();
-             }
-         </script>
+        <h1 id="logo">Elm street horror storys!</h1>  
         </a>
       <nav>
          <ul id="menu">
              <li>
-                 <a href="#">Tell your Story</a>
+                 <a href="tellyourstory.html">Tell your Story</a>
              </li>
              <li>
-                 <a href="#">1991-2010</a>
+                 <a href="1991-2010.html">1991-2010</a>
              </li>
              <li>
                  <a href="1984-1989.html">1984-1989</a>
@@ -43,15 +35,22 @@
     </header>
     <section id="scary">
         <div id="scary-man">
-            <div id=song-words><h3>One, two, Freddy's coming for you
+            <div id=song-words>
+                <h3>
+                    One, two, Freddy's coming for you
 
-                Three, four, better lock your door
+                    Three, four, better lock your door
 
-                Five, six, grab a crucifix
+                    Five, six, grab a crucifix
 
-                Seven, eight, Ya better stay awake
+                    Seven, eight, Ya better stay awake
 
-                Nine, ten, he's back again</h3></div>
+                    Nine, ten, he's back again
+                </h3>
+                <hr>
+
+                <audio id='mySound' src="./assets/audio/123.mp3" controls></audio>
+            </div>
             
         </div>
     </section>
