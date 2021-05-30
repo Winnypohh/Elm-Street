@@ -33,7 +33,7 @@ h2 {
 /* navigation links */
 
 #menu {
-    font-size: 110%;
+    font-size: 100%;
     letter-spacing: 4px;
 }
 
@@ -74,7 +74,6 @@ h2 {
     height: 900px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 
@@ -118,7 +117,7 @@ animation-fill-mode: forwards;
     top: 40px;
     left: 150px;
 
-    position: absolute;
+    position: fixed;
 }
 
 #sound {
@@ -173,7 +172,8 @@ footer {
     margin: 20px;
     padding: 30px;
     height: 330px;
-    width: 1480px;
+    width: 95%;
+    display: flex;
 }
 pre {
     font-family: Oswald,
@@ -265,11 +265,48 @@ h5 {
 
  /* For larger to media screens size from 1200px wide and down */
  @media screen and (max-width: 1200px) {
-     #posters {
-         width: 65%;
-         height: 1200px;
-         margin: 0 auto;
-     }
-     #movies {
+     
+      #menu {
          
+      }
+
+      #about-movie {
+          float: left;
+          width: 95%;
+      }
+    
+    }
+
+    /* For medium screen size from 950px wide and down */
+    @media screen and (max-width: 950px) {
+        
+        #menu {
+          
+          float: left;
+          margin-left: 40px;
+          margin-bottom: 20px;
+          line-height: 55px;
+          
+        }
+        
+        #sceary-man {
+            float: left;
+        }
+      #abaout-movie {
+          margin-left: 20px;
+          margin-right: 40px;
+        
+        
+          
+      }
+    }
+
+     /*For small screen sizes 800px and down */
+     @media screen and (max-width: 800px) {
+     
+    #menu { 
+        
+        float: left;
+       
+    }
      }
