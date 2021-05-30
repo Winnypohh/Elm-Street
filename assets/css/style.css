@@ -171,19 +171,22 @@ footer {
     color: black;
     border: 2px solid;
     margin: 20px;
-    padding: 20px;
+    padding: 30px;
     height: 330px;
     width: 1480px;
 }
 pre {
     font-family: Oswald,
     sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: black;
-    
 
+}
+h5 {
+    color: red;
+    
 }
 
      
@@ -193,9 +196,7 @@ pre {
 .regform {
     display: inline-block;
     box-sizing: border-box;
-    
-    
-
+    margin-left: 280px;
 }
 
 .reg {
@@ -259,3 +260,16 @@ pre {
      background-color: #f1f1f1;
      text-align: center;
  }
+ 
+ /* media queries */
+
+ /* For larger to media screens size from 1200px wide and down */
+ @media screen and (max-width: 1200px) {
+     #posters {
+         width: 65%;
+         height: 1200px;
+         margin: 0 auto;
+     }
+     #movies {
+         
+     }
