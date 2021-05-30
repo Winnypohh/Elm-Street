@@ -157,29 +157,31 @@ footer {
 
 /* 1984-1989  1991-2010*/
 
+#scary {
 
+    height: 100%;
+    width: 100%;
+
+    
+}
 
 .about-movie {
 
-    display: block;
-    background-color: antiquewhite; 
+    background-color: wheat;
     color: black;
-    border: 2px solid inherit;
+    border: 2px;
     margin: 20px;
-    padding: 30px;
-    height: 250px;
-    width: 50%;
-    display: flex;
+    padding: 20px;
+   
+}
 
-#movie > pre {
-
-    font-family: Oswald,
-    sans-serif;
-    font-size: 13px;
+.about-movie> pre {
+    float: right;
+    font-family: Oswald,sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: black;
-
+    
 }
 h5 {
     color: red;
