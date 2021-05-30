@@ -161,7 +161,7 @@ footer {
     bottom: 0;
 }
 
-/* 1984-1989 */
+/* 1984-1989  1991-2010*/
 
 
 .about-movie {
@@ -173,7 +173,17 @@ footer {
     margin: 20px;
     padding: 20px;
     height: 330px;
-    width: 1000px;
+    width: 1480px;
+}
+pre {
+    font-family: Oswald,
+    sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: black;
+    
+
 }
 
      
