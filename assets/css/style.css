@@ -32,6 +32,10 @@ h2 {
     margin-left: 50px;
 }
 
+#mySound {
+    
+    display: inline;
+}
 /* navigation links */
 
 #menu {
@@ -77,7 +81,7 @@ h2 {
     height: 900px;
     width: 100%;
     overflow: hidden;
-    position: relative;
+    position: inherit;
 }
 
 #scary-man {
@@ -114,12 +118,6 @@ animation-fill-mode: forwards;
     background-color: rgba(99, 64, 64, 0.7);
     margin: 150px;
     position: fixed;
-}
-
-#sound {
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    text-shadow: 2px 2px red;
 }
 
 img {
@@ -159,16 +157,6 @@ footer {
 
 /* 1984-1989 */
 
-
-#about-movie {
-   box-sizing: border-box;
-   background-repeat: no repeat;
-   background-size: cover;
-   background-position: center;
-   width: 100%;
-   overflow: hidden;
-}
-
 #about-movie div {
 
     background-color: wheat;
@@ -176,20 +164,16 @@ footer {
     width: 30%;
     height: 70px;
     padding: 40px;
-    text-align: right;
-    display: block;
+    float: left;
+    text-align: left;
+    display: inline-table;
 } 
 
 #about-movie:after {
     content: "";
-    display: inline-block;
+    display: inline-flexbox;
     clear: both;
 }
- p {
-     float: right;
-     text-align: right;
-
- }
 
  .poster {
      float: left;
@@ -205,40 +189,31 @@ h5 {
  
 /* 1991-2010 */
 
-    #about-movie {
-        background-repeat: no repeat;
-        background-size: cover;
-        background-position: center;
-        width: 100%;
-        overflow: hidden;
+    #about-movie div {
 
+        background-color: wheat;
+        color: black;
+        width: 70%;
+        height: 100px;
+        padding: 60px;
+        float: left;
+        text-align: left;
+        display: inline-table;
     }
-       
-   #about-movie div {
 
-       box-sizing: content-box;
-       background-color: wheat;
-       color: black;
-       width: 25%;
-       border: 2px solid black;
-       height: 200px;
-       margin-left: 200px;
-       padding: 100px;
-       display: inline-block;
-   }
+    #about-movie:after {
+        content: "";
+        display: inline-table;
+        clear: both;
+    }
 
-   p {
-       float: right;
-       text-align: right;
-       
-   }
-   .poster {
-       float: left;
-       height: 200px;
-       width: 160px;
-       image-rendering: pixelated;
-   }
-
+    .poster {
+        float: left;
+        height: 200px;
+        width: 160px;
+        image-rendering: pixelated;
+    }
+  
    h5 {
        color: red;
 
@@ -350,10 +325,7 @@ h5 {
      }
 
      #song-words {
-         clear: left;
-         float: left;
-         margin: 100px;
-         padding: 40px;
+         display: inline;
 
      }
     }
@@ -377,14 +349,11 @@ h5 {
         float: left;
         margin-left: 60px;
         margin-bottom: 20px;
-        line-height: 15px;
+        line-height: 20px;
         
     } 
      #song-words {
-         clear: left;
-         float: left;
-         margin: 100px;
-         padding: 20px;
+         display: block;
 
      } 
     
@@ -410,21 +379,17 @@ h5 {
     }
 
     #abaout-movie {
-        width: 100%;
+        width: 80%;
         
     }
 
-    
     #song-words {
-        clear: left;
-        float: left;
-        margin-left: 90px;
-        padding: 30px;
+        display: inline-flexbox;
 
     }
 
     #mySound {
-        float: left;
-        display: center;
+        display: inline-flexbox;
+    
     }
 }
