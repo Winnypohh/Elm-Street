@@ -172,6 +172,7 @@ footer {
     border: 2px;
     margin: 20px;
     padding: 20px;
+    text-align: fixed;
    
 }
 
@@ -265,8 +266,10 @@ h5 {
  /* For larger to media screens size from 1200px wide and down */
  @media screen and (max-width: 1200px) {
      
-      #menu {
          
+     
+      #menu {
+         float: left;
       }
 
       .about-movie {
@@ -278,40 +281,60 @@ h5 {
     /* For medium screen size from 950px wide and down */
     @media screen and (max-width: 950px) {
         
+         #logo {
+             text-align: center;
+             padding: 0;
+             margin: 0;
+         }
+
         #menu {
           
-          float: left;
-          margin-left: 40px;
-          margin-bottom: 20px;
-          line-height: 55px;
+          padding-bottom: 40px;
           
         }
+
+       
         
         #sceary-man {
-            
+         display: none;
         }
+
       .abaout-movie {
-        width: 65%;
-        float: left;
         
-          
-      }
-    }
+        box-sizing: border-box;
+      
+    } 
+     pre {
+         margin: 0;
+         padding: 0;
+     }
 
      /*For small screen sizes 800px and down */
      @media screen and (max-width: 800px) {
      
+        #logo {
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            
+        }
     #menu { 
-        
-        float: left;
-       
+
+        margin: 0;
+        padding: 10px;
+   
     }
-    #song-words {
-        
-       margin: 90px;
+    #scary-man {
+        float: left;
+        display: flex;
     }
 
+    .abaout-movie {
+        width: 20%;
+        float: right;
+        margin-bottom: 40px;
+    }
     #movie {
         float: left;
     }
-     }
+     
