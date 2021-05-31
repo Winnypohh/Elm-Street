@@ -7,12 +7,12 @@
 }
 body {
     font-family: Lato, sans-serif;
-    font-weight: 600;
-    color: wheat;
+    font-weight: 100%;
+    color: rgb(211, 193, 160);
     
 }
 #red-fire {
-    background: url('../images/red-fire.jpg') no-repeat center fixed;
+    background: url('../images/red-fire.jpg') no-repeat fixed;
     background-size: cover;
 }
 
@@ -23,13 +23,13 @@ h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: whitesmoke;
+    color: rgba(211, 193, 160,);
 }
 
 #logo {
     float: left;
-    font-size: 290%;
-    margin-left: 30px;
+    font-size: 400%;
+    margin-left: 50px;
 }
 
 /* navigation links */
@@ -65,8 +65,8 @@ h2 {
 
 .activ {
     background: url('../images/fire-23.gif');
-    color: whitesmoke;
-    padding: 10px 20px;
+    color: white;
+    padding: 20px 30px;
     
 }
 
@@ -159,11 +159,9 @@ footer {
 
 /* 1984-1989 */
 
+
 #about-movie {
-    box-sizing: border-box;
-    
-}
-#about-movie {
+   box-sizing: border-box;
    background-repeat: no repeat;
    background-size: cover;
    background-position: center;
@@ -171,24 +169,35 @@ footer {
    overflow: hidden;
 }
 
-#about-movie div p {
+#about-movie div {
 
     background-color: wheat;
     color: black;
-    width: 100%;
-    height: 0;
-    padding: 0;
+    width: 30%;
+    height: 70px;
+    padding: 40px;
     text-align: right;
-    box-sizing: content-box;
+    display: inline-block;
 } 
 
 #about-movie:after {
     content: "";
-    display: block;
+    display: inline-block;
     clear: both;
 }
+ p {
+     float: right;
+     text-align: right;
 
+ }
 
+ .poster {
+     float: left;
+     height: 200px;
+     width: 160px;
+     image-rendering: pixelated;
+ }
+ 
 h5 {
     color: red;
     
