@@ -177,7 +177,7 @@ footer {
     height: 70px;
     padding: 40px;
     text-align: right;
-    display: inline-block;
+    display: block;
 } 
 
 #about-movie:after {
@@ -197,7 +197,7 @@ footer {
      width: 160px;
      image-rendering: pixelated;
  }
- 
+
 h5 {
     color: red;
     
