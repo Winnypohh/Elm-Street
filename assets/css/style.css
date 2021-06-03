@@ -322,6 +322,11 @@ input[type=submit]:hover {
     margin: 0 auto;
 }
 
+footer {
+    width: 100%;
+    float: left;
+}
+
 }
     
 /* For medium screen size from 900px wide and down */
@@ -376,6 +381,11 @@ input[type=submit]:hover {
 .container {
 
     width: initial;
+    float: left;
+}
+
+footer {
+    width: 100%;
     float: left;
 }
 }
