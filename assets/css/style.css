@@ -9,13 +9,14 @@
 body {
 
     font-family: Lato, sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     color: bisque;     
 }
 
 #red-fire {
     background: url('../images/red-fire.jpg') no-repeat fixed;
     background-size: cover;
+    
 }
 
 /*headings and logo */
@@ -74,8 +75,8 @@ h2 {
 
 .activ {
     background: url('../images/fire-23.gif');
-    color: white;
-    padding: 20px 30px;
+    padding: 10px 30px;
+
     
 }
 
@@ -86,7 +87,7 @@ h2 {
     height: 900px;
     width: 100%;
     overflow: hidden;
-    position: inherit;
+    position: center;
 }
 
 #scary-man {
@@ -122,12 +123,12 @@ animation-fill-mode: forwards;
     height: 500px;
     
     background-color: rgba(99, 64, 64, 0.7);
-    margin: 200px;
-    position: center;
+    margin: 10%;
+    position: fixed;
 }
 
 img {
-    display: inline-block;
+    display: inline;
     width: 200px;
     height: 300px;
     padding: 9px;
@@ -142,48 +143,52 @@ img {
 
 /* footer */
 
-footer {
+footer div {
+    left: 0;
+    bottom: 0;
+    width: 100%;
 
-    height: 150px;
 }
 
 .media-networks {
     text-align: center;
 }
 
-.media-networks >li {
+.media-networks> li {
       
     display: inline;   
 }
 
-.media-networks li {
+.media-networks i {
 
     font-size: 300%;
     margin: 1%;
     padding: 20px;
-    color: black;
+    color: white;
 }
 
-/* 1984-1989   */
+/* 1984-1989 */
 
 #movie {
-
-    background-color: inherit;
-    display: inline-block;
+     width: 100%;
+    overflow: hidden;
+    
 }
 
-#movie div {
-    
-    width: 30%;
-    border: 1px solid;
+#movie div{
+   
     background-color: khaki;
-    padding: 100px; 
-    margin: 15px;
+    width: 20%;
+    height: 390px;
+    float: left;
+    margin: 0 10px 10px 0;
+    padding: 60px 0 0 40px;
+    text-align: left;
+    border: 1px solid black;
+    box-sizing: border-box;
     color: black;
-    display: inline-block;
-    
-     
-    }
+}
+
     
 .poster {
         float: left;
@@ -192,31 +197,27 @@ footer {
         image-rendering: pixelated;
     }
 
- #movie p {
-        width: 50%;
-        text-align: right;
-        float: right;
-         
+    #movie .left-box {
+        width: 32%;
     }
 
-    .left-box {
-        width: 10%;
-        float: right;
-        line-height: 20px;
-        margin-bottom: 30px;
+    #movie .right-box {
+        width: 32%;
+        }
+
+    #movie .middle-box {
+        width: 33%;
+    
     }
 
-    .right-box {
-        width: 10%;
-        float: left;
-        line-height: 20px;
-        margin-bottom: 20px;
+    #movie .last-box {
+        width: 33%;
     }
 
 
-#movie:after {
+#movie div:after {
     content: "";
-    display: block;
+    display: table;
     clear: both;
 }
  h5 {
@@ -228,20 +229,33 @@ footer {
 
  #movie-b {
 
-    
-     background-color: inherit;
-     display: inline-block;  
+     width: 100%;
+     overflow: hidden;
  }
 
  #movie-b div {
-     
-     width: 30%;
-     border: 1px solid;
      background-color: khaki;
-     margin: 15px;
-     padding: 100px;
+     width: 25%;
+     height: 400px;
+     float: left;
+     padding: 80px 0 0 40px;
+     text-align: left;
+     border: 1px solid black;
+     box-sizing: border-box;
      color: black;
-     display: inline-block;
+     
+ }
+
+ #movie-b p {
+     margin-left: 20px;
+ }
+
+ #movie-b .left-box {
+     width: 50%;
+ }
+
+ #movie-b .right-box {
+     width: 50%;
  }
 
  #movie-b:after {
@@ -326,10 +340,12 @@ footer {
  /* For larger to media screens size from 1200px wide and down */
  @media screen and (max-width: 1200px) {
 
-#movie {
-    width: 65%;
-    height: 1200px;
-    margin: 0 auto;
+
+
+#movies div {
+    width: 100%;
+    float: left;
+    padding: 0;
 }
 
     }
@@ -337,61 +353,68 @@ footer {
 
     @media screen and (max-width: 900px) {
 
-        #menu {
+    #menu {
             clear: both;
             float: left;
-            margin-left: 10px;
+            margin-left: 30px;
             margin-bottom: 60px;
-            line-height: 80px;
+            line-height: 40px;
         }
 
-        #song-words {
+    #song-words {
             left: 0;
         }
 
-         .left-box,
-         .right-box {
-             float: left;
-             width: 100%;
-             height: 600px;
-             padding: 20px;
-         }
-
     #movie {
-        width: 90%;
-    height: 1200px;
-    margin: 0 auto;
-    }
-
-    
-
-    
+             width: 100%;
+             height: 800px;
+             margin: 0 auto;
+           }
     }
      /*For small screen sizes 600px and down */
      @media screen and (max-width: 600px) {
 
-   #menu {
+   #menu div{
             clear: both;
             float: left;
-            margin-left: 5px;
-            margin-bottom: 50px;
-            line-height: 70px;
+            margin-left: 30px;
+            margin-bottom: 40px;
+            line-height: 25px;
         }
 
        #song-words {
            left: 0;
+           
        }
 
-
-    .left-box, .right-box {
-        width: 100%;
-        height: 900px;
-        padding: 20px;
-    }
-
-    #movie {
+    #movie div{
         width: 100%;
         height: 1200px;
         margin: 0 auto;
+    }
+
+    .left-box {
+        width: inherit;
+        float: right;
+    }
+
+    .middle-box {
+        width: inherit;
+        float: right;
+    }
+
+    .right-box {
+        width: inherit;
+        float: left;
+    }
+
+    #movie-b .left-box {
+        width: inherit;
+        float: right;
+    }
+
+    #movie-b .right-box {
+        width: inherit;
+        float: left;
     }
 }
