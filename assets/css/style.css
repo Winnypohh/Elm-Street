@@ -174,9 +174,9 @@ footer div {
 
 .media-networks i {
 
-    font-size: 300%;
+    font-size: 200%;
     margin: 1%;
-    padding: 20px;
+    padding: 10px;
     color: white;
 }
 
@@ -385,7 +385,7 @@ footer {
 }
 
 footer {
-    width: 100%;
+    
     float: left;
 }
 }
