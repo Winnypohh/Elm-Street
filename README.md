@@ -21,11 +21,18 @@
         <li>Most important is tell your scary storie</li>
         <li>NB. Don't forget to contact if there are any questions</li>
         </ul>
+        <h1>TECHNOLOGIES</h1>
         <h1>Language<h1>
         <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
+        <li>
+        <a href="https://et.wikipedia.org/wiki/HTML">Html</a>
+        </li>
+        <li>
+        <a href="https://en.wikipedia.org/wiki/CSS">Css</a>
+        </li>
+        <li>
+        <a herf="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>
+        </li>
         </ul>
     </body>
 </html>
