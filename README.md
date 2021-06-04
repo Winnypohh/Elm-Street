@@ -48,10 +48,17 @@
         <li>
         <p>Footer</p>
         <ul>
-        <li>Links to help find more about movies or buy something. Just takes you webside where you might fin what looking for.</li>
+        <li>Links to help find more about movies or buy something. Just takes you webside where you might find what looking for.</li>
         </ul>
-        </li>
-        </li>
+        </ul>
+        <h1>Wireframes</h1>
+        <ul>
+        <li>Desktop</li>
+        <p>1200pixels wide and down</p>
+        <li>Tablet</li>
+        <p>900 pixels wide and down</p>
+        <li>Mobile</li>
+        <p>600 pixels wide and down</p>
         </ul>
         <h1>TECHNOLOGIES</h1>
         <h1>Language<h1>
@@ -63,7 +70,7 @@
         <a href="https://en.wikipedia.org/wiki/CSS">Css</a>
         </li>
         <li>
-        <a>JavaScript</a>
+        <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>
         </li>
         </ul>
     </body>
