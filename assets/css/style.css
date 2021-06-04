@@ -359,22 +359,22 @@ footer {
 }
     
 #movie .left-box {
-    width: inherit;
+    width: 100%;
     float: right;
 }
 
 #movie .right-box {
-    width: inherit;
+    width: 100%;
     float: left;
 }
 
 #movie-b .left-box {
-    width: inherit;
+    width: 100%;
     float: right;
 }
 
 #movie-b .right-box {
-    width: inherit;
+    width: 100%;
     float: left;
 }
 
