@@ -108,9 +108,6 @@
         <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>
         </li>
         </ul>
-        <p>
-        <a href="elm street horror fanclub">Back to TOP</a>
-        </p>
     </body>
 </html>
 
