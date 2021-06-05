@@ -51,20 +51,52 @@
         <li>Links to help find more about movies or buy something. Just takes you webside where you might find what looking for.</li>
         </ul>
         </ul>
-        <h1>Wireframes</h1>
+        <h1>Wireframes.</h1>
         <ul>
         <li>Desktop</li>
-        <p>1200pixels wide and down</p>
+        <p>1200pixels wide and down.</p>
         <li>Tablet</li>
-        <p>900 pixels wide and down</p>
+        <p>900 pixels wide and down.</p>
         <li>Mobile</li>
-        <p>600 pixels wide and down</p>
+        <p>600 pixels wide and down.</p>
         </ul>
-        <h1>Colors</h1>
-        <p>For keeping everything clear and still cool I used these colors.</p>
-        <span class="colors">h1 and h2</span>
-        <h1>TECHNOLOGIES</h1>
-        <h1>Language<h1>
+        <h1>Images and Gif's</h1>
+        <p>All images I got from WallpaperAccess.com and Wallpaperwide.com. For gif i used Gfy-cat.com. Other posters and trailers are provided by IMDB.com</p>
+        <h1>Colors.</h1>
+        <p>For keeping everything clear and still cool I used these colors and design.</p>
+        <ul>
+        <li>
+        <p>For text design I used : Oswald and Lato.</p>
+        </li>
+        <li>
+        <p>h1 and h2 i used color: Wheat.</p>
+        </li>
+         <li>
+        <p>Other text colors are Blue, Black.</p>
+        </li>
+        <li>
+        <p>Important text color is Red.</p>
+        </li>
+        </ul>
+        <h1>Other Technologies.</h1>
+        <ul>
+        <li>GitHub</li>
+        <p>That's what I'm using for save my work and all other things.</p>
+        <li>GitPod</li>
+        <p>I used to make my project.</p>
+        <li>Font Awesome</li>
+        <p>Provides for you all icons.</p>
+        <li>HTML Validator</li>
+        <p>Validator helps with html errors.</p>
+        <li>Jicsaw Css Validator</li>
+        <p>Helps with Css errors.</p>
+        <li>Code Institute</li>
+        <p>I used some help to from videos to work on my codes.</p>
+        <li>W3School</li>
+        <p>You can get codes and other ideas and you can learn there extra.</p>
+        </ul>
+        <h1>TECHNOLOGIES.</h1>
+        <h1>Language.<h1>
         <ul>
         <li>
         <a href="https://et.wikipedia.org/wiki/HTML">Html</a>
@@ -76,6 +108,9 @@
         <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>
         </li>
         </ul>
+        <p>
+        <a href="elm street horror fanclub">Back to TOP</a>
+        </p>
     </body>
 </html>
 
