@@ -78,6 +78,19 @@
         <p>Important text color is Red.</p>
         </li>
         </ul>
+        <h1>TECHNOLOGIES.</h1>
+        <h1>Language.<h1>
+        <ul>
+        <li>
+        <a href="https://et.wikipedia.org/wiki/HTML">Html</a>
+        </li>
+        <li>
+        <a href="https://en.wikipedia.org/wiki/CSS">Css</a>
+        </li>
+        <li>
+        <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>
+        </li>
+        </ul>
         <h1>Other Technologies.</h1>
         <ul>
         <li>GitHub</li>
@@ -94,20 +107,7 @@
         <p>I used some help to from videos to work on my codes.</p>
         <li>W3School</li>
         <p>You can get codes and other ideas and you can learn there extra.</p>
-        </ul>
-        <h1>TECHNOLOGIES.</h1>
-        <h1>Language.<h1>
-        <ul>
-        <li>
-        <a href="https://et.wikipedia.org/wiki/HTML">Html</a>
-        </li>
-        <li>
-        <a href="https://en.wikipedia.org/wiki/CSS">Css</a>
-        </li>
-        <li>
-        <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>
-        </li>
-        </ul>
+        </ul>       
     </body>
 </html>
 
