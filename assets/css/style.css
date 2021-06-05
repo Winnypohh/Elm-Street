@@ -10,7 +10,7 @@ body {
 
     font-family: Lato, sans-serif;
     font-weight: 600;
-    color: bisque;    
+    color: wheat;    
 }
 
 #red-fire {
@@ -191,8 +191,8 @@ footer div {
 #movie div{
    
     background-color: khaki;
-    width: 20%;
-    height: 400px;
+    width: 18%;
+    height: 500px;
     float: left;
     padding: 70px 0 0 40px;
     text-align: left;

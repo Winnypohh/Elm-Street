@@ -60,6 +60,9 @@
         <li>Mobile</li>
         <p>600 pixels wide and down</p>
         </ul>
+        <h1>Colors</h1>
+        <p>For keeping everything clear and still cool I used these colors.</p>
+        <span style="display: inline; width: 100px; height: 100px; padding: 5px; border: 1px solid black;  background-color: wheat;"><a>h1 and h2</a></span>
         <h1>TECHNOLOGIES</h1>
         <h1>Language<h1>
         <ul>
