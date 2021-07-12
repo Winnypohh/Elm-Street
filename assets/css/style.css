@@ -75,8 +75,8 @@ h2 {
 
 .activ {
     background: url('../images/fire-23.gif');
-    padding: 10px 30px;
-
+    padding: 10px 20px;
+    border: 1px solid white;
     
 }
 
@@ -185,17 +185,17 @@ footer div {
 #movie {
 
      width: 100%;
-     overflow: hidden;   
+     overflow: auto;   
 }
 
 #movie div{
    
     background-color: khaki;
     width: 18%;
-    height: 500px;
+    height: 480px;
     float: left;
-    padding: 70px 0 0 40px;
-    text-align: left;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
     border: 1px solid black;
     box-sizing: border-box;
     color: black;
@@ -225,7 +225,7 @@ footer div {
     clear: both;
 }
 
-h5 {
+h3 {
      color: red;
 
 }
@@ -241,10 +241,10 @@ h5 {
 #movie-b div {
     background-color: khaki;
     width: 25%;
-    height: 400px;
+    height: 480px;
     float: left;
-    padding: 80px 0 0 40px;
-    text-align: left;
+    padding: 20px 10px 20px 10px;
+    text-align: end;
     border: 1px solid black;
     box-sizing: border-box;
     color: black;  
@@ -295,10 +295,10 @@ input[type=submit]:hover {
 }
 
 .container {
-     display: inline-table;
+     display: inline-block;
      width: 100%;
      height: 800px;
-     border-radius: 5px;
+     border-radius: 10px;
      background-color: darkgray;
 }
 
@@ -309,7 +309,7 @@ input[type=submit]:hover {
 
 #movies {
     width: 65%;
-    height: 1200px;
+    height: 1100px;
     margin: 0 auto;
 }
 
@@ -326,8 +326,8 @@ footer {
 
 #movie {
 
-    width: 90%;
-    height: 1400px;
+    width: 100%;
+    height: 1800px;
     margin: 0 auto;
 }
 .conteiner {
@@ -348,8 +348,8 @@ footer {
 #movie {
 
     width: 100%;
-    height: 1400px;
-    margin: 0 auto;
+    height: 1000px;
+    margin: 0;
     overflow: visible;
 }
     
