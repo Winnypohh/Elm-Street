@@ -195,7 +195,7 @@ footer div {
     height: 480px;
     float: left;
     padding: 20px 10px 20px 10px;
-    text-align: center;
+    text-align: end;
     border: 1px solid black;
     box-sizing: border-box;
     color: black;
@@ -275,9 +275,9 @@ input[type=text], textarea {
      border: 1px solid #ccc;
      border-radius: 4px;
      box-sizing: border-box;
-     margin-top: 6px;
-     margin-bottom: 16px;
-     resize: vertical;
+     margin-top: 40px;
+     margin-bottom: 10px;
+     resize: initial;
 }
 
 input[type=submit] {
@@ -295,11 +295,12 @@ input[type=submit]:hover {
 }
 
 .container {
-     display: inline-block;
-     width: 100%;
+    margin: 200px 40px 40px 40px;
+     display: inline-block, center;
      height: 800px;
      border-radius: 10px;
      background-color: darkgray;
+    
 }
 
  /* media queries */
@@ -330,9 +331,10 @@ footer {
     height: 1800px;
     margin: 0 auto;
 }
-.conteiner {
-    width: 100%;
+.container {
+    width: 90%;
     float: left;
+    margin-top: 80px;
 }
      
 }
@@ -375,8 +377,9 @@ footer {
 
 .container {
 
-    width: inherit;
+    width: 80%;
     float: left;
+    margin-top: 90px;
 }
 
 footer {
