@@ -6,39 +6,45 @@
         <meta name="description" content="Horror movie fans">
         <meta name="keywords" content="horror, nightmare, movie fans, dreams">
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <title>Elm street horror!!</title>   
     </head>
+    
     <body id="red-fire">
 
 <!--Heading-->
 
-        <header>
-            <a href="index.html">
+    <header>
+       
+            <div class="mobile-container">
+               
+            <a>
                 <h1 id="logo">Elm street horror storys!</h1>  
             </a> 
 
 <!--Navigation-->
+         
+             <div class="topnav">
+                <div id="myNav">             
+                <a href="#index.html" class="activ">Home</a>
 
-         <nav>
-            <ul id="menu">             
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-                <li>
-                    <a href="1991-2010.html">1991-2010</a>
-                </li>
-                <li>
-                    <a href="1984-1989.html">1984-1989</a>
-                </li>              
-                <li>
-                    <a href="index.html" class="activ">Home</a>
-                </li>
-            </ul>
-        </nav>
-
-<!--Background and song words.-->
-
-        </header>
+                    <a href="#1984-1989.html">1984-1989</a>
+             
+                    <a href="#1991-2010.html">1991-2010</a>
+                  
+                <a href="#contact.html">Contact</a>
+                    
+                </div> 
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+            </div> 
+    
+    </header>
+<!--Background and song words.--> 
+    
+<div style="padding-left:16px"></div>
         <section id="scary">
             <div id="scary-man">
                 <div id=song-words>
@@ -53,7 +59,8 @@
                 </div>
             </div>
         </section>
-
+    </div>
+    
 <!--About web site-->
 
             <P class=fans>
@@ -95,9 +102,19 @@
                     </ul>
                 </div>
             </footer>
-
+        </div>
+    </div>
 <!--font awesome script -->
-
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myNav");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
         <script src="https://kit.fontawesome.com/ca446e0df4.js" crossorigin="anonymous"></script>
     </body>
 </html>

@@ -42,42 +42,50 @@ h2 {
 }
 /* navigation links */
 
-#menu {
-    font-size: 100%;
-    letter-spacing: 4px;
+.mobile-container {
+    width: 680px;
+    margin: auto;
+    height: 20px;
+    color: white;
+    border-radius: 10px;
 }
 
-#menu,
-#logo {
-    padding: 40px;
-    line-height: 100px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu a {
+#myNav {
+    overflow: hidden;
+    background: url('../images/fire-23.gif') content-box;
+    position: absolute;
     
+}
+
+.topnav #myNav {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 10px 16px;
     text-decoration: none;
-    color: inherit;
+    font-size: 50px;
+    display: inline-block;
+    right: 60px;
+    top: 0;
 }
 
-#menu a:hover {
-    
-    border: none;
-    text-align: center;
-    
-    
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+   border: 1px solid white;
 }
 
 .activ {
-    background: url('../images/fire-23.gif');
-    padding: 10px 20px;
-    border: 1px solid white;
     
+    padding: 10px 20px; 
 }
 
 /* heading and background pic */
@@ -98,7 +106,7 @@ h2 {
 
 /* animates zoom effect on lodaing page */
 animation-name: hero-zoom;
-animation-duration: 18s;
+animation-duration: 10s;
 animation-fill-mode: forwards;
 }
 
