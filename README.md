@@ -52,7 +52,9 @@
         </ul>
         </ul>
         <h1>Wireframes.</h1>
-        <img src="my respons.PNG" width="600" height="400">
+        <a target="_blank" href="my respons">
+           <img src="my respons" alt="" width="600" height="400">
+        </a>        
         <ul>
         <li>Desktop</li>
         <p>1200pixels wide and down.</p>
