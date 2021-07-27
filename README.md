@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 <head>
     <body>
         <h1>ELM STREET HORROR MOVIE FANCLUB</h1>
@@ -52,8 +52,8 @@
         </ul>
         </ul>
         <h1>Wireframes.</h1>
-        <a target="_blank" href="my respons">
-           <img src="my respons" alt="" width="600" height="400">
+        <a target="_blank" href="my respons.PNG">
+        <img src="my respons.PNG" alt="" width="600" height="400">
         </a>        
         <ul>
         <li>Desktop</li>
