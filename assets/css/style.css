@@ -9,7 +9,7 @@
 body {
 
     font-family: Lato, sans-serif;
-    font-weight: 600;
+    font-weight: 1100px;
     color: wheat;    
 }
 
@@ -29,11 +29,7 @@ h2 {
     color: wheat;
 }
 
-#logo {
-    float: left;
-    font-size: 400%;
-    margin-left: 50px;
-}
+
 
 #mySound {
 
@@ -43,29 +39,35 @@ h2 {
 /* navigation links */
 
 .mobile-container {
-    width: 680px;
+    max-width: 480px;
     margin: auto;
-    height: 20px;
+    height: 200px;
     color: white;
     border-radius: 10px;
+    font-size: 30px;
+    display: inline;
 }
 
 #myNav {
     overflow: hidden;
     background: url('../images/fire-23.gif') content-box;
-    position: absolute;
-    
+    width: 100%;
+    text-align: center;
 }
 
 .topnav #myNav {
-    display: none;
+     display: none;
+}
+.topnav li {
+    display: inline-block;
 }
 
 .topnav a {
+
     color: white;
-    padding: 10px 16px;
+    padding: 14px 16px;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 35px;
     display: inline-block;
     right: 60px;
     top: 0;
@@ -77,6 +79,7 @@ h2 {
     position: absolute;
     right: 0;
     top: 0;
+    
 }
 
 .topnav a:hover {
@@ -84,11 +87,10 @@ h2 {
 }
 
 .activ {
-    
-    padding: 10px 20px; 
+    color: white;
 }
 
-/* heading and background pic */
+/* Main picture */
 
 #scary {
 
@@ -340,11 +342,15 @@ footer {
     margin: 0 auto;
 }
 .container {
-    width: 90%;
+    width: 100%;
     float: left;
     margin-top: 80px;
 }
-     
+ .topnav {
+     width: 95%;
+     margin: 0;
+     padding: 0;
+ }
 }
  /*For small screen sizes 600px and down */
  @media screen and (max-width: 600px) {
@@ -387,7 +393,18 @@ footer {
 
     width: 80%;
     float: left;
-    margin-top: 90px;
+    margin-top: 40px;  
+}
+.topnav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    font-size: 20px;
+}
+#myNav {
+    width: 100%;
+
 }
 
 footer {

@@ -6,36 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Horror movie fans">
     <meta name="keywords" content="horror, nightmare, movie fans, dreams">
-
     <link rel="stylesheet" href="assets/css/style.css">
+
     <title>Elm street horror!!</title>
 
 </head>
 
 <body id="red-fire">
+    <!--Heading-->
+
     <header>
-        <a href="index.html">
-            <h1 id="logo">Elm street horror storys!</h1>
-        </a>
 
-<!--Navigation-->
+        <div class="mobile-container">
 
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="contact.html" class="activ">Contact</a>
-                </li>
-                <li>
-                    <a href="1991-2010.html">1991-2010</a>
-                </li>
-                <li>
-                    <a href="1984-1989.html">1984-1989</a>
-                </li>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-            </ul>
-        </nav>
+            <div class="topnav">
+
+                <h1 href="index.html" class="active">Elm street horror storys!</h1>
+
+                <!--Navigation-->
+
+                <div id="myNav">
+                    <a href="#index.html">Home</a>
+
+                    <a href="#1984-1989.html">1984-1989</a>
+
+                    <a href="#1991-2010.html">1991-2010</a>
+
+                    <a href="#contact.html" class="active">Contact</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        
     </header>
 
 <!--Form-->
@@ -81,11 +84,20 @@
                 </li>
             </ul>
         </footer>
-
+    </div>
 <!--font awesome script -->
 
     <script src="https://kit.fontawesome.com/ca446e0df4.js" crossorigin="anonymous"></script>
-
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myNav");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 
 </body>
 
