@@ -52,6 +52,7 @@
         </ul>
         </ul>
         <h1>Wireframes.</h1>
+        <img src="myrespons.PNG" width="600" height="400">
         <ul>
         <li>Desktop</li>
         <p>1200pixels wide and down.</p>
