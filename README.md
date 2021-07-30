@@ -52,8 +52,8 @@
         </ul>
         </ul>
         <h1>Wireframes.</h1>
-        <a target="_blank" href="assets/images/my-respons.jpg">
-        <img src="asstes/images/my-respons.jpg" alt="" width="800" height="400">
+        <a target="_blank" href="./assets/images/my-respons.jpg">
+        <img src="./asstes/images/my-respons.jpg" alt="" width="900" height="400">
         </a>        
         <ul>
         <li>Desktop</li>
@@ -81,6 +81,15 @@
         <p>Important text color is Red.</p>
         </li>
         </ul>
+        <h1>Testing</h1>
+        <p>For testing, I will use multiple resources, HTML and CSS validators, Chrome Dev Tools Lighthouse tests as well as thorough user testing. Any errors and bugs found during the testing stage will be noted in the Bugs & Fixes section.</p>
+        <ul>
+        <h1>Tests</h1>
+        <li>HTML Validator</li>
+        <p>All HTML pages have been tested with the w3c validator and passed with no errors.</p>
+        <li>Jigsaw CSS Validator</li>
+        <p>style.css has been passed through the CSS validator and passed with no errors.</p>
+        <ul>
         <h1>TECHNOLOGIES.</h1>
         <h1>Language.<h1>
         <ul>
