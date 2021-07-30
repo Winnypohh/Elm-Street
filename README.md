@@ -52,8 +52,8 @@
         </ul>
         </ul>
         <h1>Wireframes.</h1>
-        <a target="_blank" href="my-respons.jpg">
-        <img src="my-respons.jpg" alt="" width="800" height="400">
+        <a target="_blank" href="assets/images/my-respons.jpg">
+        <img src="asstes/images/my-respons.jpg" alt="" width="800" height="400">
         </a>        
         <ul>
         <li>Desktop</li>
