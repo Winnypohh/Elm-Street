@@ -9,7 +9,7 @@
 body {
 
     font-family: Lato, sans-serif;
-    font-weight: 1100px;
+    font-weight: 700px;
     color: wheat;    
 }
 
@@ -306,11 +306,10 @@ input[type=submit]:hover {
 
 .container {
     margin: 200px 40px 40px 40px;
-     display: inline-block, center;
+     display: inline-block;
      height: 800px;
      border-radius: 10px;
      background-color: darkgray;
-    
 }
 
  /* media queries */
@@ -360,17 +359,12 @@ footer {
  /*For small screen sizes 600px and down */
  @media screen and (max-width: 600px) {
 
-#menu div{
-
-    width: 90%;
-    clear: both;
-}
-
 #movie {
 
-    width: 90%;
+    width: 100%;
     height: 100px;
     margin: 0;
+    padding: 0;
     overflow: visible;
 }
     
@@ -396,19 +390,19 @@ footer {
 
 .container {
 
-    width: 90%;
+    width: 100%;
     float: left;
     margin: 25px;  
 }
 .topnav {
-    width: 90%;
+    width: 100%;
     margin: 0;
     padding: 0;
     float: left;
-    font-size: large;
+    font-size: 20px;
 }
 #myNav {
-    width: 499px;
+    width: 100%;
     font-size: x-small;
     float: left;
 }
