@@ -41,7 +41,7 @@ h2 {
 .mobile-container {
     max-width: 480px;
     margin: auto;
-    height: 200px;
+    height: 210px;
     color: white;
     border-radius: 10px;
     font-size: 30px;
@@ -347,9 +347,14 @@ footer {
     margin-top: 80px;
 }
  .topnav {
-     width: 95%;
+     width: 90%;
      margin: 0;
      padding: 0;
+ }
+ #myNav {
+     width: 100%;
+     font-size: medium;
+     float: left;
  }
 }
  /*For small screen sizes 600px and down */
@@ -357,14 +362,14 @@ footer {
 
 #menu div{
 
-    width: 100%;
+    width: 90%;
     clear: both;
 }
 
 #movie {
 
-    width: 100%;
-    height: 1000px;
+    width: 90%;
+    height: 100px;
     margin: 0;
     overflow: visible;
 }
@@ -391,20 +396,21 @@ footer {
 
 .container {
 
-    width: 80%;
+    width: 90%;
     float: left;
     margin-top: 40px;  
 }
 .topnav {
-    width: 100%;
+    width: 90%;
     margin: 0;
     padding: 0;
     float: left;
-    font-size: 20px;
+    font-size: medium;
 }
 #myNav {
-    width: 100%;
-
+    width: 500px;
+    font-size: smaller;
+    float: left;
 }
 
 footer {
