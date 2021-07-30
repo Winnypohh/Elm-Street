@@ -64,11 +64,11 @@ h2 {
 .topnav a {
 
     color: white;
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: none;
-    font-size: 35px;
+    font-size: 30px;
     display: inline-block;
-    right: 60px;
+    right: 40px;
     top: 0;
 }
 
@@ -304,11 +304,13 @@ input[type=submit]:hover {
 }
 
 .container {
-    margin: 200px 40px 40px 40px;
-     display: inline-block;
-     height: 800px;
-     border-radius: 10px;
-     background-color: darkgray;
+    width: 97%;
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+    display: inline-block;
+    height: 800px;
+    border-radius: 10px;
+    background-color: darkgray;
 }
 
  /* media queries */
@@ -326,7 +328,10 @@ footer {
     width: 100%;
     float: left;
 }
-
+.container {
+    width: 90%;
+    float: left;
+}
 }
     
 /* For medium screen size from 900px wide and down */
@@ -340,9 +345,8 @@ footer {
     margin: 0 auto;
 }
 .container {
-    width: 100%;
+    width: 92%;
     float: left;
-    margin-top: 80px;
 }
  .topnav {
      width: 90%;
@@ -389,9 +393,9 @@ footer {
 
 .container {
 
-    width: 100%;
-    float: left;
-    margin: 25px;  
+    width: 90%;
+    margin: 13px;
+    float: left;  
 }
 .topnav {
     width: 100%;
