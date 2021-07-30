@@ -29,37 +29,37 @@
         <li>
         <p>Header</p>
         <ul>
-        <img src="/workspace/Elm-Street/assets/images/header&hamburgermenu.PNG">
+        <img src="./assets/images/header&hamburgermenu.PNG">
         <li>Hamburgermenu to have mobilite for navigation thru the pages</li>
         <li>There is a home button with other page navigation buttons in each page to help with quick movement.</li>
         <h1>Main Picture</h1>
-        <img src="/workspace/Elm-Street/assets/images/main.PNG">
-        <li>Music has his sound control and easy to use.</li>
+        <img src="./assets/images/main.PNG">
+        <li>Music has his sound control and easy to use and made picture to move closer to have some more effect for web site</li>
         </ul>
         </li>
         <li>
         <p>Page 1984-1989 and 1991-2010</p>
-        <img src="/workspace/Elm-Street/assets/images/1984page-.PNG">
-        <img src="/workspace/Elm-Street/assets/images/-2010page.PNG">
+        <img src="./assets/images/1984page-.PNG">
+        <img src="./assets/images/-2010page.PNG">
         <ul>
         <li>Has movies from 1984 to 2010 and has links to trailers by clicking on poster.</li>
         </ul>
         <li>
         <p>Contact</p>
-        <img src="/workspace/Elm-Street/assets/images/contact.PNG">
+        <img src="./assets/images/contact.PNG">
         </li>
         <ul>
         <li>If you have questions, add something, want your story to tell or looking somethings.</li>
         </ul>
         <li>
         <p>Footer</p>
-        <img src="/workspace/Elm-Street/assets/images/Links.PNG">
+        <img src="./assets/images/Links.PNG">
         <ul>
         <li>Links to help you find more about movies or purchase items. It just takes you website where you might find what looking for.</li>
         </ul>
         </ul>
         <h1>Wireframes.</h1> 
-        <img src="/workspace/Elm-Street/assets/images/my-respons.jpg">
+        <img src="./assets/images/my-respons.jpg">
         <ul>
         <li>Desktop</li>
         <p>1200pixels wide and down.</p>
