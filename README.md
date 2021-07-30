@@ -22,7 +22,7 @@
         <li>NB. Don't forget to contact if there are any questions.</li>
         </ul>
         <h1>Structure</h1>
-        <p>Site has been made and designed to make it easy for navigate through the pages.
+        <p>This site has been made and designed to make it easy for navigate through the pages.
            All the context is very easy to understand. 
         </p>
         <ul>
@@ -30,11 +30,11 @@
         <p>Header</p>
         <ul>
         <img src="./assets/images/header&hamburgermenu.PNG">
-        <li>Hamburgermenu to have mobilite for navigation thru the pages</li>
-        <li>There is a home button with other page navigation buttons in each page to help with quick movement.</li>
+        <li>Hamburger menu to have mobility for navigation through the pages</li>
+        <li>There is a home button with more page navigation button's in each page to help with quick movement.</li>
         <h1>Main Picture</h1>
         <img src="./assets/images/main.PNG">
-        <li>Music has his sound control and easy to use and made picture to move closer to have some more effect for web site</li>
+        <li>Music has its sound control and it's easy to use, I made the picture move closer to have some more effect on the website</li>
         </ul>
         </li>
         <li>
