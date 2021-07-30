@@ -398,18 +398,18 @@ footer {
 
     width: 90%;
     float: left;
-    margin-top: 40px;  
+    margin: 25px;  
 }
 .topnav {
     width: 90%;
     margin: 0;
     padding: 0;
     float: left;
-    font-size: medium;
+    font-size: large;
 }
 #myNav {
-    width: 500px;
-    font-size: smaller;
+    width: 499px;
+    font-size: x-small;
     float: left;
 }
 
